@@ -1,5 +1,5 @@
 import Link from "next/link"
-import { Hand, Github, Linkedin, Mail } from "lucide-react"
+import { Hand, Gift, /* Linkedin */ Mail } from "lucide-react"
 
 const footerLinks = {
   Product: [
@@ -51,10 +51,10 @@ export function Footer() {
                 className="flex size-9 items-center justify-center rounded-lg border border-border bg-background text-muted-foreground transition-colors hover:bg-accent hover:text-foreground"
                 aria-label="GitHub"
               >
-                <Github className="size-4" />
+                <Gift className="size-4" />
               </a>
 
-              <a
+{/*               <a
                 href="https://linkedin.com"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -62,7 +62,7 @@ export function Footer() {
                 aria-label="LinkedIn"
               >
                 <Linkedin className="size-4" />
-              </a>
+              </a> */}
 
               <a
                 href="mailto:hello@silentecho.ai"
